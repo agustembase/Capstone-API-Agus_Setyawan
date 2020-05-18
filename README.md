@@ -9,5 +9,5 @@ Static Endpoints
 /albums', method = GET. Untuk Menampilkan tabel albums
 /employees', method = GET. Untuk Menampilkan tabel employees
 /invoice', method = GET. Untuk Menampilkan Dataframe Invoice
-/customer/name/' , method = GET. Untuk Nama lengkap employee yang melayani customer paling banyak
-/top/genre/' , method = GET. Untuk Lima penjualan terbaik berdasarkan GenreID
+/customer/name/<employees>' , method = GET. Untuk Nama lengkap employee yang melayani customer paling banyak
+/top/genre/<genreid>' , method = GET. Untuk Lima penjualan terbaik berdasarkan GenreID
